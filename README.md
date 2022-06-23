@@ -13,6 +13,10 @@
 - https://api.coincap.io/v2/assets
 - Jest
 
+## Loom Video Demo:
+[https://www.loom.com/share](https://www.loom.com/share/31d4c7d9fdd34748b172aa6ea0114766)
+
+
 ## Live Demo:
 [https://digital-currency-v1.netlify.app](https://digital-currency-v1.netlify.app/)
 
