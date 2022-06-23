@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Coin from '../components/Coin';
 import { FetchCoinsFunc } from '../redux/CoinList/CoinList';
+import Header from '../components/Header';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -15,6 +16,7 @@ const Home = () => {
   const handleDetails = (id) => navigate(`/details/${id}`);
   return (
     <div data-testid="intro-page" className="data-cont">
+      <Header />
       <div>
         <h3 className="coins-title">Coins By Name, Symbol, Price</h3>
         <div className="coin-card-cont">
